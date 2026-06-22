@@ -8,30 +8,129 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
-        rel="stylesheet">
-        
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
-        <h1>The Grand Plate</h1>
-        <span>FINE DINNING - EST.1998</span>
+        <h1 class="title-font">The Grand Plate</h1>
+        <span>FINE DINING - EST.1998</span>
         <div class="heder-tab">
-            <div>Span</div>
-            <div>Main</div>
-            <div>Desserts</div>
-            <div>Drinks</div>
-        </div>
-        <div class="section-title">Starts
-        </div>
-        <div class="section-grid">
-            <div class="section-grid-card"></div>
-            <div class="section-grid-card></div>
-            <div ></div>
+            <a href="#starters" class="heder-tab-element">Starters</a>
+            <a href="#mains" class="heder-tab-element">Mains</a>
+            <a href="#desserts" class="heder-tab-element">Desserts</a>
+            <a href="#drinks" class="heder-tab-element">Drinks</a>
         </div>
     </div>
+    <div class="main">
+        <!-- Starts -->
+        <div class="section-title" id="starters"><span>Starters</span>
+        </div>
+        <div class="section-grid">
+            <div class="section-grid-card animation">
+                <div class="badge">Chef's Special</div>
+                <div class="dish title-font">Truffle Arancini</div>
+                <div class="desc"><span>Crispy risotto balls with black truffle and parmesan foam
+                    </span></div>
+                <div class="price">₹ 780</div>
+            </div>
+            <div class="section-grid-card animation">
+                <div class="badge badge-veg">Veg</div>
+                <div class="dish title-font">Garden Bruschetta
+                </div>
+                <div class="desc"><span>Toasted sourdough with heirloom tomatoes and basil oil
+                    </span></div>
+                <div class="price">₹ 520</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge badge-new">New</div>
+                <div class="dish title-font">Prawn Tempura</div>
+                <div class="desc"><span>Tiger prawns in light batter with yuzu dipping sauce
+                    </span></div>
+                <div class="price">₹ 950</div>
+            </div>
+        </div>
+
+        <!-- Main -->
+        <div class="section-title" id="mains"><span>Main</span>
+        </div>
+        <div class="section-grid">
+            <div class="section-grid-card">
+                <div class="badge">Chef's Special</div>
+                <div class="dish title-font">Lamb Rack</div>
+                <div class="desc"><span>Herb-crusted lamb with rosemary jus and seasonal greens
+                    </span></div>
+                <div class="price">₹ 1850</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge badge-veg">Veg</div>
+                <div class="dish title-font">Wild Mushroom Risotto</div>
+                <div class="desc"><span>Arborio rice, porcini, truffle oil and aged parmesan
+                    </span></div>
+                <div class="price">₹ 1080</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge badge-new">New</div>
+                <div class="dish title-font">Pan Seared Salmon</div>
+                <div class="desc"><span>Atlantic salmon, lemon caper beurre blanc, dill potatoes
+                    </span></div>
+                <div class="price">₹ 1600</div>
+            </div>
+        </div>
+
+        <!-- Desserts -->
+        <div class="section-title" id="desserts"><span>Desserts</span></div>
+        <div class="section-grid">
+            <div class="section-grid-card">
+                <div class="badge">Chef's Special</div>
+                <div class="dish title-font">Crème Brûlée</div>
+                <div class="desc"><span>Classic vanilla custard with a caramelised sugar crust</span></div>
+                <div class="price">₹ 620</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge badge-new">New</div>
+                <div class="dish title-font">Gulab Jamun Cheesecake</div>
+                <div class="desc"><span>Fusion dessert with rose syrup, cream cheese and pistachio crumble</span></div>
+                <div class="price">₹ 540</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge badge-veg">Veg</div>
+                <div class="dish title-font">Dark Chocolate Fondant</div>
+                <div class="desc"><span>Warm chocolate lava cake served with vanilla bean ice cream</span></div>
+                <div class="price">₹ 680</div>
+            </div>
+        </div>
+
+        <!-- Drinks -->
+        <div class="section-title" id="drinks"><span>Drinks</span></div>
+        <div class="section-grid">
+            <div class="section-grid-card">
+                <div class="badge badge-veg">Veg</div>
+                <div class="dish title-font">Virgin Mojito</div>
+                <div class="desc"><span>Fresh mint, lime juice, soda water and crushed ice</span></div>
+                <div class="price">₹ 320</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge badge-new">New</div>
+                <div class="dish title-font">Mango Lassi Royale</div>
+                <div class="desc"><span>Thick Alphonso mango blended with chilled yoghurt and cardamom</span></div>
+                <div class="price">₹ 280</div>
+            </div>
+            <div class="section-grid-card">
+                <div class="badge">Chef's Special</div>
+                <div class="dish title-font">Cold Brew Coffee</div>
+                <div class="desc"><span>12-hour steeped single origin cold brew with oat milk foam</span></div>
+                <div class="price">₹ 390</div>
+            </div>
+        </div>
+    </div>
+    <!--Fo0ter-->
+    <div class="fotter">
+        <div>📍 The Grand Palace Hotel, Indore</div>
+        <div>⏰ 7:00 AM – 11:00 PM</div>
+        <div>📞 +91 98765 43210</div>
+    </div>
+
 </body>
 
 </html>

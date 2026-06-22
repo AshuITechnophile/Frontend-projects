@@ -1,11 +1,175 @@
-*{
-margin:0;
-padding:0;
-box-sizing: border-box;
-background-color: rgba(96, 42, 40, 1);
-color: #D4A843;;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
 }
-html,body{
-width: 100%;
-height: 100%;
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;   /* ONLY on html, not body */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #D4A843;
+    background-color: rgba(96, 42, 40, 1);
+}
+
+.title-font {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    margin-bottom: 4px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 24px 20px 24px;
+    text-align: center;
+    font-family: "Anthropic Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.heder-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0px 24px;
+}
+
+.heder-tab-element {
+    padding: 8px 18px;
+    color: #a08040;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.heder-tab-element:hover {
+    color: #D4A843;
+    border-bottom: 2px solid #D4A843;
+}
+
+.heder-tab-element:active {
+    border-bottom: 1px solid #D4A843;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    height: 50.4px;
+    width: 100%;
+    margin: 0 0 16px 0;
+    padding: 20px 24px 8px;     
+    border-bottom: 0.5px solid #D4A843;
+}
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 0 24px 0px 24px;
+    margin: 0 auto 24px auto;
+    max-width: 900px;
+}
+.section-grid-card {
+    padding: 14px;
+    border: 0.3px solid #D4A843;
+    border-radius: 10px;
+    background-color: #231a08;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-grid-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(212, 168, 67, 0.2);
+}
+
+.badge {
+    display: block;
+    font-size: 9px;
+    width: 83px;
+    height: 15px;
+    top: 0px;
+    left: 0px;
+    background-color: #D4A84322;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    padding: 2px 8px;
+}
+
+.badge-veg {
+    background-color: #22543422;
+    color: #68d391;
+    width: 40px;
+    height: 15px;
+}
+
+.badge-new {
+    background-color: #74222222;
+    color: #fc8181;
+    width: 40px;
+    height: 15px;
+}
+
+.dish {
+    display: block;
+    color: #f0e6cc;
+    background-color: #231a08;
+    width: 100%;
+    height: 17px;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+/* .desc {
+    display: flex;
+    flex-direction: start;
+    color: #806040;
+    text-align: left;
+    background-color: #231a08;
+    width: 173px;
+    font-size: 10px;
+    margin-bottom: 10px;
+} */
+
+.desc {
+    display: block;
+    color: #806040;
+    width: 100%;          /* was 173px — fix this */
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    flex-direction: start;
+    background-color: #231a08;
+    width: 100%;
+    height: 17px;
+    font-size: 13px;
+}
+
+.fotter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 24px 0px;
+    padding: 16px 30px 20px;
+}
+
+.fotter div {
+    color: #806040;
+    font-size: 10px;
+}
+
+.animation:hover {
+    border: 1px solid #D4A843;
+    z-index: 2;
 }
