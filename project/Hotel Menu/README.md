@@ -42,8 +42,6 @@ A fine dining restaurant menu page built with pure HTML and CSS, designed as par
 >
 > ![1782145382889](image/README/1782145382889.png)
 
-
-
 ![1782145396961](image/README/1782145396961.png)
 
 ---
@@ -51,7 +49,8 @@ A fine dining restaurant menu page built with pure HTML and CSS, designed as par
 ## 🚀 Live Demo
 
 > Add your GitHub Pages link here
-> [View Live →](https://your-username.github.io/the-grand-plate)
+> [https://agent-6a396db71a6647cb8--gorgeous-griffin-4bb2ba.netlify.app/
+> ](https://your-username.github.io/the-grand-plate)
 
 ---
 

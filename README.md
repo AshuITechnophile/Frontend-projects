@@ -24,9 +24,9 @@ This repository contains beginner-to-intermediate frontend projects developed to
 
 ## Projects
 
-| Project                                       | Technologies | Description                                                                                                        | Live Demo   |
-| --------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------ | ----------- |
-| 🍽️ The Grand Plate – Hotel Restaurant Menu | HTML, CSS    | A luxury restaurant menu webpage featuring responsive layouts, CSS Grid, smooth navigation, and elegant UI design. | Coming Soon |
+| Project                                       | Technologies | Description                                                                                                        | Live Demo                                                             |
+| --------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
+| 🍽️ The Grand Plate – Hotel Restaurant Menu | HTML, CSS    | A luxury restaurant menu webpage featuring responsive layouts, CSS Grid, smooth navigation, and elegant UI design. | https://agent-6a396db71a6647cb8--gorgeous-griffin-4bb2ba.netlify.app/ |
 
 ---
 
