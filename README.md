@@ -102,8 +102,8 @@ Frontend Developer | UI/UX Enthusiast | Aspiring Software Engineer
 
 ### Connect With Me
 
-* GitHub: [https://github.com/your-username](https://github.com/your-username)
-* LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+* GitHub: [https://github.com/your-username](https://github.com/AshuITechnophile)
+* LinkedIn: [https://linkedin.com/in/your-profile](https://www.linkedin.com/in/ashutoshmishra25/)
 
 ---
 
