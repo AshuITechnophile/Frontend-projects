@@ -1,15 +1,14 @@
-# Frontend-projects
-
-A curated collection of frontend projects demonstrating HTML, CSS, JavaScript, responsive design, UI/UX principles, and modern web development practices.
-
-
 # Frontend Projects Collection
 
-A collection of frontend web development projects built using HTML, CSS, and JavaScript.
+A curated collection of frontend web development projects built using HTML, CSS, and JavaScript. This repository showcases my learning journey, hands-on practice, and implementation of modern frontend development concepts, responsive design principles, and UI/UX best practices.
+
+---
 
 ## About
 
-This repository contains various beginner-to-intermediate frontend projects created to strengthen web development fundamentals, responsive design skills, and UI implementation.
+This repository contains beginner-to-intermediate frontend projects developed to strengthen core web development skills. Each project focuses on practical implementation, clean code structure, responsive layouts, and user-friendly interfaces.
+
+---
 
 ## Tech Stack
 
@@ -17,41 +16,99 @@ This repository contains various beginner-to-intermediate frontend projects crea
 * CSS3
 * JavaScript (ES6+)
 * Responsive Web Design
+* CSS Flexbox
+* CSS Grid
+* Git & GitHub
+
+---
 
 ## Projects
 
-| Project      | Technologies  | Description                    |
-| ------------ | ------------- | ------------------------------ |
-| Hotel Menu   | HTML, CSS,    | Basic hotel menu web page      |
-| To-Do App    | HTML, CSS, JS | Task management application    |
-| Landing Page | HTML, CSS     | Responsive landing page design |
-| Weather App  | HTML, CSS, JS | Weather information using API  |
+| Project                                       | Technologies | Description                                                                                                        | Live Demo   |
+| --------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 🍽️ The Grand Plate – Hotel Restaurant Menu | HTML, CSS    | A luxury restaurant menu webpage featuring responsive layouts, CSS Grid, smooth navigation, and elegant UI design. | Coming Soon |
+
+---
 
 ## Skills Demonstrated
 
-* Responsive Design
+* Responsive Web Design
+* Semantic HTML
+* CSS Flexbox & Grid
+* UI/UX Design Principles
 * DOM Manipulation
 * Event Handling
 * Form Validation
 * API Integration
-* UI/UX Design
-* Frontend Development
+* Interactive User Interfaces
+* Git & GitHub Workflow
 
-## Future Improvements
+---
 
-* Add React Projects
-* Add TypeScript Projects
-* Improve Accessibility
-* Add Unit Testing
+## Repository Structure
+
+```text
+frontend-projects/
+│
+├── projects/
+│   │
+│   ├── the-grand-plate/
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   ├── README.md
+│   │   └── assets/
+│   │
+│   └── upcoming-projects/
+│
+├── assets/
+│   └── screenshots/
+│
+└── README.md
+```
+
+---
+
+## Learning Goals
+
+* Build strong frontend development fundamentals.
+* Improve UI/UX design skills.
+* Create responsive and accessible web interfaces.
+* Learn modern JavaScript concepts.
+* Develop industry-standard project documentation.
+* Build a professional GitHub portfolio.
+
+---
+
+## Future Projects
+
+* To-Do Application
+* Weather Application
+* Calculator
+* Landing Page Collection
+* Portfolio Website
+* E-Commerce Frontend
+* React Projects
+* JavaScript Mini Projects
+
+---
 
 ## Author
 
-Ashutosh Mishra
+**Ashutosh Mishra**
 
 B.Tech Computer Science Student
 
-Frontend Developer | UI/UX Enthusiast
+Frontend Developer | UI/UX Enthusiast | Aspiring Software Engineer
+
+### Connect With Me
+
+* GitHub: [https://github.com/your-username](https://github.com/your-username)
+* LinkedIn: [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+
+---
 
 ## License
 
-This project is licensed under the MIT License.
+This repository is licensed under the MIT License.
+
+Feel free to explore the projects, learn from the code, and provide feedback.
